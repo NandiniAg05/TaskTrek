@@ -9,29 +9,29 @@ const Header = () => {
 
       <header className="head-category">Categories</header>
       <div className="categories">
-        <button className="home-first">
+        <a href="/" className="home-first">
           <p>House</p>
           <div className="mark">.........</div>
-        </button>
-        <button className="home-first">
+        </a>
+        <a href="/" className="home-first">
           <p>Family</p>
-        </button>
-        <button className="home-first">
+        </a>
+        <a href="/" className="home-first">
           <p>Work</p>
-        </button>
-        <button className="home-first">
+        </a>
+        <a href="/" className="home-first">
           <p>Sports</p>
-        </button>
+        </a>
       </div>
 
       <header className="head-category">Data</header>
       <div className="categories">
-        <button className="home-first">
+        <a href="/" className="home-first">
           <p>Statistics</p>
-        </button>
-        <button className="home-first">
+        </a>
+        <a href="/" className="home-first">
           <p>Compare</p>
-        </button>
+        </a>
       </div>
     </div>
   );
