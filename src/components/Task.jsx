@@ -23,8 +23,8 @@ const Task =() =>{
     const [tim, setTim] =useState(null)
     const [isUpdating, setIsUpdating] =useState(false)
     const [toDoId, setToDoId] = useState("")
-    const [currentDate, setCurrentDate] = useState(getDate());
-    const [currentTime, setCurrentTime] = useState(getTime());
+    const [currentDate] = useState(getDate());
+    const [currentTime] = useState(getTime());
 
     useEffect (() => {
         getAllTodo(setToDo)
