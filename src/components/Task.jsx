@@ -41,13 +41,13 @@ const Task =() =>{
         <div className="container">
             <div className="top">
                 <div className="inputF">
+                    <input type="text" name="" id="" value={text} className='tasktext' placeholder='Add Task' onChange={(e) =>setText(e.target.value)}/>
                     <button className="add"
                     onClick={isUpdating ?
                     ()=>updateTodo(toDoId, text, setToDo, setText, tim, setTim, setIsUpdating)
                     : ()=>addToDo(text, setText, tim, setTim, setToDo)}>
-                        {isUpdating ? "Update" : "Add Task"}
+                        {isUpdating ? "Update" : "Add"}
                         </button>
-                    <input type="text" name="" id="" value={text} onChange={(e) =>setText(e.target.value)}/>
                     {/* <input type="date" name="" id="" value={tim} onChange={(e) =>setTim(e.target.value)}/> */}
                 </div>
 

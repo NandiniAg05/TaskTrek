@@ -136,3 +136,13 @@
     font-weight: 400;
 }
 
+.tasktext{
+    background-color: #cbe5e5b1;
+    padding-inline: 1.5rem;
+    padding-block: 0.4rem;
+    border: none;
+    margin-right: 2px;
+    border-radius: 5px;
+    color: #f9f9f9;
+    font-size: 0.9rem;
+}
