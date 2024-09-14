@@ -1,40 +1,40 @@
-import { BsFillCalendarCheckFill } from "react-icons/bs"
+import { BsFillCalendarCheckFill } from "react-icons/bs";
 
-const Header =() =>{
-    return(
-        <div className="sidebar">
-            <header>
-                <h3><BsFillCalendarCheckFill className="icon-header"/>TaskTrek</h3>
-            </header>
+const Header = () => {
+  return (
+    <div className="sidebar">
+      <header>
+        <h3><BsFillCalendarCheckFill className="icon-header"/>TaskTrek</h3>
+      </header>
 
-            <header className="head-category">Categories</header>
-            <div className="categories">
-                <a href="" class="home-first">
-                    <p>House</p>
-                    <div className="mark">.........</div>
-                </a>
-                <a href="" class="home-first">
-                    <p>Family</p>
-                </a>
-                <a href="" class="home-first">
-                    <p>Work</p>
-                </a>
-                <a href="" class="home-first">
-                    <p>Sports</p>
-                </a>    
-            </div>
-            <header className="head-category">Data</header>
-            <div className="categories">
-                <a href="" class="home-first">
-                    <p>Statistics</p>
-                </a>
-                <a href="" class="home-first">
-                    <p>Compare</p>
-                </a> 
-            </div>
-        </div>
-        
-    )
-}
+      <header className="head-category">Categories</header>
+      <div className="categories">
+        <button className="home-first">
+          <p>House</p>
+          <div className="mark">.........</div>
+        </button>
+        <button className="home-first">
+          <p>Family</p>
+        </button>
+        <button className="home-first">
+          <p>Work</p>
+        </button>
+        <button className="home-first">
+          <p>Sports</p>
+        </button>
+      </div>
+
+      <header className="head-category">Data</header>
+      <div className="categories">
+        <button className="home-first">
+          <p>Statistics</p>
+        </button>
+        <button className="home-first">
+          <p>Compare</p>
+        </button>
+      </div>
+    </div>
+  );
+};
 
 export default Header;
